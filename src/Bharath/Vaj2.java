@@ -16,7 +16,7 @@ public class Vaj {
 		
 		
 		
-		int n1 =5 , n2 = 10;
+		int n1 = 15 , n2 = 20;
 		int n3;
 		n3 = n1;
 		n1 = n2;
