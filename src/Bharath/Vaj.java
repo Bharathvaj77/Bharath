@@ -6,23 +6,18 @@ public class Vaj {
 
 	
 	public static void main(String[] args) {
-		int num1 = 10, num2 = 20;
-		int num3= num1;
-		int num4 = num2;
-		num1= 5;
-		num2=15;
-		System.out.println(num1);
-		System.out.println(num2);
+		int x = 5;
+		int y = 3;
+		int z = 7;
+		x = x+y+z;
+		y = x-y-z;
+		z = x-y-z;
+		x= x-y-z;
 		
+		System.out.println(z);
+		System.out.println(x);
+		System.out.println(y);
 		
-		
-		int n1 =5 , n2 = 10;
-		int n3;
-		n3 = n1;
-		n1 = n2;
-		n2 = n3;
-		System.out.println(n1);
-		System.out.println(n2);
 	}
 
 }
