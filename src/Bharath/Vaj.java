@@ -9,6 +9,7 @@ public class Vaj {
 		int age = 15;
 		System.out.println(age>=18);
 		
+		
 	}
 
 }
