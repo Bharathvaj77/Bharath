@@ -6,22 +6,18 @@ public class Vaj {
 
 	
 	public static void main(String[] args) {
-		int a = -7;
-		if ((a%2==0) && (a>=0)) {
-			System.out.println("positive even");
+		int n = 15;
+		if (n%3==0 && n%5==0) {
+			System.out.println("bing bang");
 		}
-		else if ((a%2==0) && (a<=0)){
-			System.out.println("negative even");
+		else if (n%3==0) {
+			System.out.println("bing");
 		}
-		else if(!(a%2==0) && (a>=0)) {
-			System.out.println("positive odd");
-	}
-		else if (!(a%2==0) && (a<=0)) {
-			System.out.println("negative odd");
-}
+		else if (n%5==0) {
+			System.out.println("bang");
+		}
 		else {
-			System.out.println("error");
-		
+			System.out.println("n");
 		}
 	}
 }
