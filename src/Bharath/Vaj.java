@@ -6,16 +6,19 @@ public class Vaj {
 
 	
 	public static void main(String[] args) {
-		int num = 9876 ;
-		int reverse=0;
-		while (num>0) {
-			int r = num%10;
-			reverse = reverse*10+r;
-			
-			num = num/10;
+		int a = 24 ;
+		int b = 79;
+		int c = 30;
+		if((a>b) && (a>c)) {
+			System.out.println("A is Greater");
 		}
-			
-		System.out.println( reverse);
+		else if(b>c) {
+			System.out.println("B is Greater");
+		} 
+		else {
+			System.out.println("C is Greater");
+		}
+		
 		
 		
 	}
