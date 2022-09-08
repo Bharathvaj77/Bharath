@@ -6,18 +6,26 @@ public class Vaj {
 
 	
 	public static void main(String[] args) {
-		int a = 24 ;
-		int b = 79;
-		int c = 30;
-		if((a>b) && (a>c)) {
-			System.out.println("A is Greater");
-		}
-		else if(b>c) {
-			System.out.println("B is Greater");
-		} 
+		int i,m=0, a=0;
+		int n = 7;
+		m = n/2;
+		if(n==0 || n==1) {
+			System.out.println(n +  "is not a prime number");}
 		else {
-			System.out.println("C is Greater");
+			for(i=2;i<=m;i++) {
+				if (n%i==0) {
+					System.out.println(n +  "is not a prime number");
+					a=1;
+				}
+			}
 		}
+		if(a==0) {
+			System.out.println(n +  "is a prime number");
+		}
+		
+			
+		
+		
 		
 		
 		
