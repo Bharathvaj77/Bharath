@@ -6,25 +6,11 @@ public class Vaj {
 
 	
 	public static void main(String[] args) {
-		int i = 1;
-		while (i<20) {
-			if (i%3==0 && i%5==0) {
-				System.out.println("Bing Bang");
-			}
-			if (i%3==0) {
-				System.out.println("Bing");
-			}
-			else if (i%5==0) {
-				System.out.println("Bang");
-			}
-			else if((i%3!=0) && (i%5!=0)) {
-				System.out.println(i);
-			}
-			i++;
+		int a[]= {1,2,3,4,5};
+		for(int i=a.length-1; i>=0 ;i--) {
+			System.out.println(a[i]);
 		}
-		
-		
-		
+	
 		
 		
 		
