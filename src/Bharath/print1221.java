@@ -8,10 +8,10 @@ public class print1221 {
 		for( i=1;i<=3;i++) {
 			 for(j=1;j<=n;j++)
 				if(j==1 || j==n) {
-					System.out.print("1");
+					System.out.print("1 ");
 				}
 				else {
-					System.out.print("2");
+					System.out.print("2 ");
 				}
 			 System.out.println();
 		}
