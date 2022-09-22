@@ -3,12 +3,13 @@ package Bharath;
 public class BT {
 
 	public static void main(String[] args) {
-		int n = 5;
-		for(int i=0;i<n;i++) {
-			 
-				System.out.print("1 ");
-			
-		}
+		int a=10;
+		int b=20;
+		a=a+b;
+		b=a-b;
+		a=a-b;
+		System.out.println(a);
+		System.out.println(b);
 	
 	}
 
