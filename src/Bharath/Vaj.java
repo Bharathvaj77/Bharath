@@ -6,14 +6,11 @@ public class Vaj {
 
 	
 	public static void main(String[] args) {
-		//int i=1;
-		for(int i=1;i<7;i++) {
-			System.out.print(i+(i-1));
-			
-		}
-		System.out.println(" ");
-		for(int i=1;i<7;i++) {
-			System.out.print(i*2);
+		int num=1;
+		for(int i=1;i<3;i++) {
+		num=num*11;
+		
+				System.out.println(num);
 		}
 	
 		
