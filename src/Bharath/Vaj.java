@@ -6,11 +6,18 @@ public class Vaj {
 
 	
 	public static void main(String[] args) {
-		int n=5;
-		for(int i=1;i<n;i++) {
-			System.out.println(i^i);
-			
+		int a[]= {3,4,6,8,10,12};
+		
+		int max=a[0];
+		
+		for(int i=0;i<a.length;i++) 
+		{
+			if(a[i]>max)
+			{
+				max=a[i];
+			}
 		}
+	System.out.println(max);
 	
 		
 		
