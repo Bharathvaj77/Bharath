@@ -4,7 +4,7 @@ public class prime {
 public static void main(String args[]) {
 	int num=10,count;
 	int i,j;
-	for( i=2;i<=20;i++) {
+	for( i=2;i<=10;i++) {
 		count=0;
 	for( j=1;j<=i;j++) {// 1<=1
 	if(i%j==0) {

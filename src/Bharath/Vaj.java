@@ -6,9 +6,9 @@ public class Vaj {
 
 	
 	public static void main(String[] args) {
-		int a[]= {210,90,7,100};
+		int a[]= {210,90,700,10};
 		int max=a[0];
-		int max2=a[0];
+		int max2=0;
 		int pos=0;
 		int pos2=0;
 		for(int i=0;i<a.length;i++)
@@ -24,7 +24,7 @@ public class Vaj {
 		System.out.println("The position of maximum number is:" + pos);
 		for(int i=0;i<a.length;i++)
 		{
-			if(a[i]!=max) 
+			if(a[i]>=max2 && a[i]!=max) 
 			{
 				max2=a[i];
 				pos2=i;
