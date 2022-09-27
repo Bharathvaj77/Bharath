@@ -10,7 +10,7 @@ public class fibonacciseries {
 			System.out.println(n1+n2);
 			n2=n1+n2;
 			n1=n2-n1;
-			//System.out.println(n1+n2);
+			
 			
 		}
 
