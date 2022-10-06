@@ -3,7 +3,7 @@ package Bharath;
 public class decimaltobinary {
 
 	public static void main(String[] args) {
-		int a=6, i=0;
+		int a=99, i=0;
 		int b[] =new int[10]; 
 		while(a>0) {
 			b[i]=a%2;
