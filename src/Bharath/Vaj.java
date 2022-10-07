@@ -7,7 +7,7 @@ public class Vaj {
 	
 	public static void main(String[] args) {
 		int a[]= {210,90,700,10};
-		int max=a[0];
+		int max=0;
 		int max2=0;
 		int pos=0;
 		int pos2=0;
