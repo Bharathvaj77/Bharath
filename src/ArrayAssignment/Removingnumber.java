@@ -1,8 +1,8 @@
 package ArrayAssignment;
-
+    //6.Removing given no in a Array
 public class Removingnumber {
 	void remove(int a[]) {
-		int n=4;
+		int n=5;
 		int i=0;
 		
 		for( i=0;i<a.length;i++) {
