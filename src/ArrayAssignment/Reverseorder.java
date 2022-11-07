@@ -1,5 +1,5 @@
 package ArrayAssignment;
-
+         //3.printing in reverse order
 public class Reverseorder {
 	void Reverse (int a[]) {
 		for(int i=a.length-1;i>=0;i--) {
